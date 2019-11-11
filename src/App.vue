@@ -89,8 +89,7 @@
           return [
             {icon: 'dns', title: 'Wszystkie Wydarzenia', link: '/allevents'},
             {icon: 'event', title: 'Twoje Wydarzenia', link: '/event'},
-            {icon: 'add_circle_outline', title: 'Organizuj Wydarzenie', link: '/event/new'},
-            {icon: 'add_circle_outline', title: 'Registered', link: '/registered'},
+            {icon: 'add_circle_outline', title: 'Organizuj Wydarzenie', link: '/event/new'}
           ]
         }
         return [

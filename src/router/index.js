@@ -7,7 +7,6 @@ import SignUp from '@/components/User/SignUp'
 import SignIn from '@/components/User/SignIn'
 import Events from '@/components/Event/Events'
 import AllEvents from '@/components/Event/AllEvents'
-import UserRegisteredEvents from '@/components/Event/UserRegisteredEvents'
 import store from "@/store"
 
 
@@ -55,11 +54,6 @@ const router = new Router({
             path: '/allevents',
             name: 'AllEvents',
             component: AllEvents
-        },
-        {
-            path: '/registered',
-            name: 'UserRegisteredEvents',
-            component: UserRegisteredEvents
         }
     ]
 })
